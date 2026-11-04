@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 110" width="100%" height="110">
+  <defs>
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff5cc" />
+      <stop offset="35%" stop-color="#e5b839" />
+      <stop offset="70%" stop-color="#996e14" />
+      <stop offset="100%" stop-color="#543b06" />
+    </linearGradient>
+
+    <filter id="passedGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .gta-passed {
+        font-family: 'Impact', 'Arial Black', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+      }
+      .gta-respect {
+        font-family: 'Arial Black', 'Impact', sans-serif;
+        font-weight: 900;
+        letter-spacing: 3px;
+      }
+    </style>
+  </defs>
+
+  <!-- Banner Background -->
+  <rect x="5" y="5" width="590" height="100" rx="10" fill="#0c0414" stroke="#e5b839" stroke-width="2" opacity="0.9" />
+
+  <!-- Accent Lines -->
+  <line x1="30" y1="18" x2="570" y2="18" stroke="#ff007f" stroke-width="1.5" opacity="0.7" />
+  <line x1="30" y1="92" x2="570" y2="92" stroke="#00f0ff" stroke-width="1.5" opacity="0.7" />
+
+  <!-- Main Text: MISSION PASSED! -->
+  <text x="300" y="56" fill="url(#bronzeGrad)" font-size="34" font-weight="900" text-anchor="middle" class="gta-passed" filter="url(#passedGlow)" stroke="#1a0c00" stroke-width="1.2">
+    MISSION PASSED!
+  </text>
+
+  <!-- Sub Text: RESPECT + / COMMITS DELIVERED -->
+  <g fill="#00f0ff">
+    <text x="300" y="80" font-size="14" text-anchor="middle" class="gta-respect" letter-spacing="3">
+      RESPECT + <tspan fill="#ff2a85">|</tspan> REPO VISITED +9999 <tspan fill="#ff2a85">|</tspan> 0 BUGS REMAINING
+    </text>
+  </g>
+</svg>

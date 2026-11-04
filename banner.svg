@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="100%" height="280">
+  <defs>
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#08020f" />
+      <stop offset="35%" stop-color="#1f0638" />
+      <stop offset="65%" stop-color="#5a1064" />
+      <stop offset="85%" stop-color="#c42878" />
+      <stop offset="100%" stop-color="#f98d44" />
+    </linearGradient>
+
+    <!-- Sun Gradient -->
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe600" />
+      <stop offset="40%" stop-color="#ff3b7a" />
+      <stop offset="100%" stop-color="#9d00ff" />
+    </linearGradient>
+
+    <!-- VI Fill Gradient -->
+    <linearGradient id="viGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85" />
+      <stop offset="45%" stop-color="#b827fc" />
+      <stop offset="75%" stop-color="#2c99ff" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Intense Text Glow -->
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Sun Striping Clip Mask -->
+    <mask id="sunMask">
+      <rect x="0" y="0" width="960" height="280" fill="#fff" />
+      <!-- Horizontal black bars slicing through lower half of sun -->
+      <rect x="380" y="105" width="200" height="4" fill="#000" />
+      <rect x="380" y="115" width="200" height="5" fill="#000" />
+      <rect x="380" y="126" width="200" height="6" fill="#000" />
+      <rect x="380" y="139" width="200" height="7" fill="#000" />
+      <rect x="380" y="154" width="200" height="9" fill="#000" />
+      <rect x="380" y="171" width="200" height="12" fill="#000" />
+    </mask>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 10px #ff007f); }
+        50% { opacity: 1; filter: drop-shadow(0 0 25px #00f0ff); }
+      }
+      @keyframes starFlash {
+        0%, 100% { opacity: 0.9; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.95); }
+      }
+      .pulsing-vi {
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+      .stars {
+        animation: starFlash 2.5s ease-in-out infinite;
+      }
+      .hud-font {
+        font-family: 'Montserrat', 'Impact', 'Arial Black', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+      }
+      .script-font {
+        font-family: 'Brush Script MT', 'Segoe Script', cursive, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Sky Backdrop -->
+  <rect width="960" height="280" rx="14" fill="url(#skyGrad)" />
+
+  <!-- Background Stars/Dust -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="120" cy="35" r="1" />
+    <circle cx="210" cy="65" r="1.5" />
+    <circle cx="280" cy="25" r="1" />
+    <circle cx="680" cy="45" r="1.5" />
+    <circle cx="750" cy="20" r="1" />
+    <circle cx="840" cy="60" r="1.2" />
+    <circle cx="890" cy="30" r="1.5" />
+    <circle cx="480" cy="25" r="1.2" />
+    <circle cx="340" cy="50" r="1" />
+    <circle cx="610" cy="30" r="1.2" />
+  </g>
+
+  <!-- Synthwave Retro Sun -->
+  <circle cx="480" cy="140" r="75" fill="url(#sunGrad)" mask="url(#sunMask)" opacity="0.95" />
+
+  <!-- Grid Sea / Horizon Baseline -->
+  <path d="M 0 200 L 960 200" stroke="#ff3b88" stroke-width="2" opacity="0.8" />
+  <g stroke="#00f0ff" stroke-width="0.8" opacity="0.35">
+    <line x1="0" y1="208" x2="960" y2="208" />
+    <line x1="0" y1="219" x2="960" y2="219" />
+    <line x1="0" y1="233" x2="960" y2="233" />
+    <line x1="0" y1="251" x2="960" y2="251" />
+    <line x1="0" y1="273" x2="960" y2="273" />
+    <!-- Perspective lines radiating from center -->
+    <line x1="480" y1="200" x2="480" y2="280" />
+    <line x1="480" y1="200" x2="350" y2="280" />
+    <line x1="480" y1="200" x2="200" y2="280" />
+    <line x1="480" y1="200" x2="0" y2="280" />
+    <line x1="480" y1="200" x2="610" y2="280" />
+    <line x1="480" y1="200" x2="760" y2="280" />
+    <line x1="480" y1="200" x2="960" y2="280" />
+  </g>
+
+  <!-- Giant Roman Numeral 'VI' (GTA VI Iconic Mark) -->
+  <g class="pulsing-vi" opacity="0.9">
+    <!-- 'V' -->
+    <path d="M 330 40 L 400 40 L 445 165 L 475 165 L 430 40 L 500 40 L 450 185 L 380 185 Z" 
+          fill="url(#viGrad)" opacity="0.85" filter="url(#neonGlow)" />
+    <!-- 'I' -->
+    <path d="M 525 40 L 575 40 L 575 185 L 525 185 Z" 
+          fill="url(#viGrad)" opacity="0.85" filter="url(#neonGlow)" />
+    
+    <!-- Crisp Foreground Overlay of 'VI' -->
+    <path d="M 330 40 L 400 40 L 445 165 L 475 165 L 430 40 L 500 40 L 450 185 L 380 185 Z" 
+          fill="url(#viGrad)" stroke="#ffffff" stroke-width="1.5" />
+    <path d="M 525 40 L 575 40 L 575 185 L 525 185 Z" 
+          fill="url(#viGrad)" stroke="#ffffff" stroke-width="1.5" />
+  </g>
+
+  <!-- Vice City Palm Trees (Silhouettes) -->
+  <!-- Left Palms -->
+  <g fill="#07020d">
+    <!-- Left Trunk 1 -->
+    <path d="M 60 280 Q 95 190 75 90 Q 70 85 64 90 Q 82 190 48 280 Z" />
+    <!-- Left Fronds 1 -->
+    <path d="M 72 90 Q 40 70 0 85 Q 35 95 68 95 Z" />
+    <path d="M 72 90 Q 30 50 5 35 Q 38 65 70 88 Z" />
+    <path d="M 72 90 Q 70 45 60 15 Q 75 50 75 88 Z" />
+    <path d="M 72 90 Q 100 45 125 30 Q 95 62 76 90 Z" />
+    <path d="M 72 90 Q 120 75 155 85 Q 110 95 75 94 Z" />
+    <path d="M 72 90 Q 115 110 135 135 Q 98 115 72 94 Z" />
+
+    <!-- Left Trunk 2 (smaller, leaning right) -->
+    <path d="M 120 280 Q 140 210 135 140 Q 131 136 126 140 Q 130 210 110 280 Z" opacity="0.75" />
+    <path d="M 133 140 Q 90 120 70 130 Q 105 140 130 144 Z" opacity="0.75" />
+    <path d="M 133 140 Q 115 105 100 90 Q 120 120 132 140 Z" opacity="0.75" />
+    <path d="M 133 140 Q 155 105 180 110 Q 150 128 135 142 Z" opacity="0.75" />
+    <path d="M 133 140 Q 165 140 190 155 Q 155 152 133 143 Z" opacity="0.75" />
+  </g>
+
+  <!-- Right Palms -->
+  <g fill="#07020d">
+    <!-- Right Trunk 1 -->
+    <path d="M 900 280 Q 865 190 885 90 Q 890 85 896 90 Q 878 190 912 280 Z" />
+    <!-- Right Fronds 1 -->
+    <path d="M 888 90 Q 920 70 960 85 Q 925 95 892 95 Z" />
+    <path d="M 888 90 Q 930 50 955 35 Q 922 65 890 88 Z" />
+    <path d="M 888 90 Q 890 45 900 15 Q 885 50 885 88 Z" />
+    <path d="M 888 90 Q 860 45 835 30 Q 865 62 884 90 Z" />
+    <path d="M 888 90 Q 840 75 805 85 Q 850 95 885 94 Z" />
+    <path d="M 888 90 Q 845 110 825 135 Q 862 115 888 94 Z" />
+
+    <!-- Right Trunk 2 -->
+    <path d="M 840 280 Q 820 210 825 140 Q 829 136 834 140 Q 830 210 850 280 Z" opacity="0.75" />
+    <path d="M 827 140 Q 870 120 890 130 Q 855 140 830 144 Z" opacity="0.75" />
+    <path d="M 827 140 Q 845 105 860 90 Q 840 120 828 140 Z" opacity="0.75" />
+    <path d="M 827 140 Q 805 105 780 110 Q 810 128 825 142 Z" opacity="0.75" />
+    <path d="M 827 140 Q 795 140 770 155 Q 805 152 827 143 Z" opacity="0.75" />
+  </g>
+
+  <!-- Title & HUD Elements -->
+  <!-- Top Bar Tag -->
+  <g>
+    <rect x="360" y="16" width="240" height="20" rx="4" fill="#080210" opacity="0.75" stroke="#00f0ff" stroke-width="1" />
+    <text x="480" y="30" fill="#00f0ff" font-size="10" font-weight="900" text-anchor="middle" class="hud-font" filter="url(#textGlow)">
+      LEONIDA STATE // VICE CITY
+    </text>
+  </g>
+
+  <!-- Big Neon Script / Subtitle -->
+  <text x="480" y="215" fill="#ffffff" font-size="28" font-weight="900" text-anchor="middle" class="hud-font" letter-spacing="8" filter="url(#textGlow)">
+    DEVELOPER PORTFOLIO
+  </text>
+  <text x="480" y="238" fill="#ff429e" font-size="13" font-weight="800" text-anchor="middle" class="hud-font" letter-spacing="4">
+    SYSTEMS // FULL-STACK // CYBER HEISTS
+  </text>
+
+  <!-- Five Wanted Stars in HUD -->
+  <g class="stars" fill="#ffd700" stroke="#b39700" stroke-width="1">
+    <!-- Star 1 -->
+    <path d="M 400 258 l 3.5 7.5 8 1.2 -6 5.5 1.5 8 -7 -4 -7 4 1.5 -8 -6 -5.5 8 -1.2 z" />
+    <!-- Star 2 -->
+    <path d="M 440 258 l 3.5 7.5 8 1.2 -6 5.5 1.5 8 -7 -4 -7 4 1.5 -8 -6 -5.5 8 -1.2 z" />
+    <!-- Star 3 -->
+    <path d="M 480 258 l 3.5 7.5 8 1.2 -6 5.5 1.5 8 -7 -4 -7 4 1.5 -8 -6 -5.5 8 -1.2 z" />
+    <!-- Star 4 -->
+    <path d="M 520 258 l 3.5 7.5 8 1.2 -6 5.5 1.5 8 -7 -4 -7 4 1.5 -8 -6 -5.5 8 -1.2 z" />
+    <!-- Star 5 -->
+    <path d="M 560 258 l 3.5 7.5 8 1.2 -6 5.5 1.5 8 -7 -4 -7 4 1.5 -8 -6 -5.5 8 -1.2 z" />
+  </g>
+
+  <!-- Outer Neon Border Frame -->
+  <rect x="2" y="2" width="956" height="276" rx="13" fill="none" stroke="#ff007f" stroke-width="2.5" opacity="0.8" />
+  <rect x="6" y="6" width="948" height="268" rx="10" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.4" />
+</svg>
