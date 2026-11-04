@@ -3,7 +3,7 @@
   <!-- GTA 6 THEMED BANNER -->
   <!-- You can switch between ./assets/banner.jpg (Cinematic Wallpaper) or ./assets/banner.svg (Neon Vector) -->
   <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="./assets/banner.jpg" alt="GTA VI Developer Portfolio Banner" width="100%" />
+    <img src="./banner.jpg" alt="GTA VI Developer Portfolio Banner" width="100%" />
   </a>
 
   <br />
