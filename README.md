@@ -240,7 +240,7 @@ Character:
 
 <!-- FOOTER MISSION PASSED BADGE -->
 <div align="center">
-  <img src="./assets/mission-passed.svg" alt="Mission Passed" width="550px" />
+  <img src="./mission-passed.svg" alt="Mission Passed" width="550px" />
   <br />
   <sub>GTA VI Themed GitHub Profile • Designed for Developers in Vice City, Leonida 🌴</sub>
 </div>
