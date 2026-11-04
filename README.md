@@ -3,7 +3,7 @@
   <!-- GTA 6 THEMED BANNER -->
   <!-- Switch between ./assets/banner.jpg (Cinematic Wallpaper) or ./assets/banner.svg (Neon Vector) -->
   <a href="https://github.com/parvdube-ux">
-    <img src="./assets/banner.jpg" alt="GTA VI Developer Portfolio Banner" width="100%" />
+    <img src="./banner.jpg" alt="GTA VI Developer Portfolio Banner" width="100%" />
   </a>
 
   <br />
@@ -281,7 +281,7 @@ Operative:
 
 <!-- FOOTER MISSION PASSED BADGE -->
 <div align="center">
-  <img src="./assets/mission-passed.svg" alt="Mission Passed" width="550px" />
+  <img src="./mission-passed.svg" alt="Mission Passed" width="550px" />
   <br />
   <sub>GTA VI Themed GitHub Profile • Designed for Parv Dube (@parvdube-ux) • Leonida 🌴</sub>
 </div>
