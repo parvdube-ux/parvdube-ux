@@ -1,9 +1,9 @@
 <div align="center">
 
   <!-- GTA 6 THEMED BANNER -->
-  <!-- You can switch between ./assets/banner.jpg (Cinematic Wallpaper) or ./assets/banner.svg (Neon Vector) -->
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="./banner.svg" alt="GTA VI Developer Portfolio Banner" width="100%" />
+  <!-- Switch between ./assets/banner.jpg (Cinematic Wallpaper) or ./assets/banner.svg (Neon Vector) -->
+  <a href="https://github.com/parvdube-ux">
+    <img src="./assets/banner.jpg" alt="GTA VI Developer Portfolio Banner" width="100%" />
   </a>
 
   <br />
@@ -18,8 +18,8 @@
     <b>ARMOR:</b> <code>[████████████████] 100%</code>
   </p>
   <p>
-    <b>CASH:</b> <code>$9,999,999</code> &nbsp;|&nbsp;
-    <b>CURRENT OBJECTIVE:</b> <code>BUILDING PRODUCTION-GRADE SOFTWARE &amp; CRACKING COMPLEX SYSTEMS</code>
+    <b>CASH / REVENUE RECOVERED:</b> <code>₹1,73,000+</code> &nbsp;|&nbsp;
+    <b>CURRENT OBJECTIVE:</b> <code>ENGINEERING AGENTIC AI &amp; BULLETPROOF BACKENDS</code>
   </p>
 
   <!-- SOCIAL / FREQUENCY BADGES -->
@@ -30,6 +30,12 @@
     <a href="https://linkedin.com/in/parv-dube-1266b0334">
       <img src="https://img.shields.io/badge/ENCRYPTED_NET-00F0FF?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" />
     </a>
+    <a href="https://github.com/parvdube-ux">
+      <img src="https://img.shields.io/badge/HEIST_REPOSITORIES-9D00FF?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://github.com/parvdube-ux?tab=repositories">
+      <img src="https://img.shields.io/badge/SAFEHOUSE_PROJECTS-FFB800?style=for-the-badge&logo=codeforces&logoColor=black" alt="Projects" />
+    </a>
   </p>
 
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="2px" />
@@ -37,22 +43,23 @@
 
 <br />
 
-## 📂 CLASSIFIED DOSSIER // CHARACTER PROFILE
+## 📂 CLASSIFIED DOSSIER // OPERATIVE PROFILE
 
 ```yaml
-Character:
-  Alias: "YOUR_NAME_OR_HANDLE"
-  Specialty: "Full-Stack Engineer // Cloud Architect // System Specialist"
-  Base of Operations: "Vice City, Leonida (Remote Worldwide)"
-  Primary Rig: "Arch Linux / macOS // Mechanical Keyboard // Coffee Injector"
-  Current Bounty: "Building high-performance web applications and AI systems"
-  Heist Philosophy: "Move fast, ship clean code, leave zero bugs behind."
+Operative:
+  Alias: "Parv Dube (@parvdube-ux)"
+  Specialty: "Backend Architecture // Agentic AI Systems // Full-Stack Engineering"
+  Base of Operations: "VIT Bhopal University (Leonida Outpost // Remote Worldwide)"
+  Academic Clearance: "B.Tech Computer Science & Engineering (2024–2028) // CGPA: 8.38"
+  Primary Rig: "Dell G15 (Intel i5-13th Gen + RTX 3050) // 16GB DDR5 // Neon Backlit // Coffee Injector"
+  Current Bounty: "Smart India Hackathon (SIH) 2026 Finalist — Project 'YatraIQ'"
+  Heist Philosophy: "Real logic over simple CRUD. Strict compliance, bounded agents, zero unhandled errors."
 ```
 
-* 🌆 **Day Job**: Engineering scalable software solutions, microservices, and modern web interfaces.
-* 🕶️ **Night Ops**: Contributing to open-source software, tinkering with LLMs, and building creative side-heists.
-* 📻 **Vice City Radio Preset**: *Synthwave / 80s Disco / Cyberpunk Beats*.
-* 💼 **Looking for**: High-stakes contracts, full-time engineering roles, and innovative engineering crews.
+* 🧠 **Specialized Intel**: Designing backend systems that enforce business logic — role-based access control, complex multi-step workflows, and automated financial & aggregation pipelines.
+* 🤖 **Autonomous AI**: Crafting bounded LLM agents (Gemini API, Razorpay API) with hard test-verified compliance bounds, audit trails, and graceful degradation fallbacks.
+* 🏆 **Major Accomplishment**: Selected as part of **Team TechNova** from VIT Bhopal University's Internal Hackathon 2026 to represent the university at **Smart India Hackathon (SIH) 2026** for *YatraIQ* (AI-powered predictive public transportation platform).
+* 📜 **Classified Badges**: Cloud Computing (*NPTEL 2025*) & The Bits and Bytes of Computer Networking (*Google 2026*).
 
 <br />
 
@@ -62,53 +69,60 @@ Character:
 
 <div align="center">
 
-### 🗡️ SIDEARMS & MELEE // CORE LANGUAGES
+### 🗡️ SIDEARMS & CORE LANGUAGES
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/JavaScript_(ES6+)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black" alt="Rust" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/SQL-CC292B?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
 </p>
 
-### 🔫 AUTOMATICS & RIFLES // FRONTEND & UI FRAMEWORKS
+### 🤖 AGENTIC & AI SYSTEMS
 <p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/Google_Gemini_API-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" />
+  <img src="https://img.shields.io/badge/LLM_Reasoning-FF007F?style=for-the-badge&logo=openai&logoColor=white" alt="LLM Reasoning" />
+  <img src="https://img.shields.io/badge/Agentic_Workflows-00F0FF?style=for-the-badge&logo=probot&logoColor=black" alt="Agentic Workflows" />
+  <img src="https://img.shields.io/badge/MediaPipe_Vision-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/Razorpay_API-0C2340?style=for-the-badge&logo=razorpay&logoColor=3395FF" alt="Razorpay API" />
 </p>
 
-### 💣 HEAVY ARTILLERY // BACKEND, CLOUD & ORCHESTRATION
+### 🔫 AUTOMATICS // FRONTEND & UI
+<p>
+  <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux Toolkit" />
+  <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS" />
+  <img src="https://img.shields.io/badge/HTML5_/_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5/CSS3" />
+</p>
+
+### 💣 HEAVY ARTILLERY // BACKEND & DEVOPS
 <p>
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/CI/CD_(Learning)-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/Kubernetes_(Learning)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
-### 🏦 SAFE CRACKERS // DATABASES & CACHING
+### 🏦 SAFE CRACKERS // DATABASES
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Mongoose_ODM-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose" />
+  <img src="https://img.shields.io/badge/Aggregation_Pipelines-FFB800?style=for-the-badge&logo=apache-spark&logoColor=black" alt="Aggregation" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 </p>
 
-### 🕶️ HEIST GEAR // OPERATING SYSTEMS & WORKFLOW
+### 🕶️ HEIST GEAR // DEVELOPER TOOLS
 <p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Claude_Code-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot" />
 </p>
 
 </div>
@@ -117,60 +131,90 @@ Character:
 
 ---
 
-## 💰 THE HEIST LOGS // FEATURED OPERATIONS
+## 💰 THE HEIST LOGS // CLASSIFIED OPERATIONS
 
 <table>
   <thead>
     <tr>
-      <th width="30%">🎯 Operation / Target</th>
-      <th width="45%">📋 Mission Briefing &amp; Arsenal</th>
-      <th width="25%">🏆 Score &amp; Evidence</th>
+      <th width="32%">🎯 Operation / Target</th>
+      <th width="46%">📋 Mission Briefing &amp; Tactics</th>
+      <th width="22%">🏆 Score &amp; Evidence</th>
     </tr>
   </thead>
   <tbody>
+    <!-- OPERATION 1: HINGLISH RECOVERY AGENT -->
     <tr>
       <td>
-        <b>Operation: Ocean View Gateway</b><br />
-        <sub>High-Concurrency Distributed API</sub>
+        <b>Operation: Hinglish Checkout Recovery Agent</b><br />
+        <sub>Autonomous Financial Recovery Agent</sub><br /><br />
+        <img src="https://img.shields.io/badge/RAZORPAY_AI_BUILDATHON_2026-TRACK_3-FF007F?style=flat-square" alt="Buildathon" />
       </td>
       <td>
-        Engineered a distributed realtime event streaming platform handling 25,000+ req/sec with sub-millisecond latencies.<br /><br />
-        <code>Go</code> • <code>Redis</code> • <code>gRPC</code> • <code>Docker</code> • <code>Kafka</code>
+        Engineered an autonomous AI agent detecting abandoned Razorpay transactions. Diagnoses failure points via LLM classification and dispatches personalized, bounded Hinglish recovery nudges.<br /><br />
+        • <b>₹1.73 Lakh Recovered</b> (58.5% recovery rate) across 55-journey persona simulation.<br />
+        • Strict audit trail: <code>Observation → Diagnosis → Decision → Outcome</code>.<br />
+        • Hard compliance rules (max 3 messages, auto-stop on payment/opt-out) &amp; graceful fallback to rule-based engine when API is offline.<br /><br />
+        <code>Python</code> • <code>Gemini API</code> • <code>Razorpay API</code> • <code>Unit Testing</code>
       </td>
       <td>
-        <a href="https://github.com/parvdube-ux/ocean-view-gateway"><b>[📁 REPO]</b></a> &nbsp;
-        <a href="https://example.com/demo"><b>[🚀 DEMO]</b></a><br /><br />
-        <img src="https://img.shields.io/badge/STATUS-COMPLETED-00F0FF?style=flat-square" alt="Status" />
+        <a href="https://github.com/parvdube-ux"><b>[📁 REPO]</b></a><br />
+        <a href="https://github.com/parvdube-ux"><b>[🎥 DEMO VIDEO]</b></a><br /><br />
+        <img src="https://img.shields.io/badge/RECOVERED-₹1.73L-00F0FF?style=for-the-badge" alt="Recovered" />
       </td>
     </tr>
+    <!-- OPERATION 2: MOODIFY -->
     <tr>
       <td>
-        <b>Operation: Vice City SynthUI</b><br />
-        <sub>Component Library &amp; Design System</sub>
+        <b>Operation: Moodify</b><br />
+        <sub>Vision AI &amp; Dynamic Music Discovery</sub><br /><br />
+        <img src="https://img.shields.io/badge/COMPUTER_VISION-MEDIAPIPE-00F0FF?style=flat-square" alt="MediaPipe" />
       </td>
       <td>
-        A 90s retro-futuristic synthwave component library built for modern Next.js 14 and React web applications.<br /><br />
-        <code>TypeScript</code> • <code>React</code> • <code>TailwindCSS</code> • <code>Radix UI</code>
+        Full-stack MERN application running real-time facial emotion detection through MediaPipe Face Landmarker. Classifies mood states (Happy, Sad, Angry, Excited, Neutral) with confidence score tracking.<br /><br />
+        • Integrated Spotify API to curate personalized mood-matched playlists with dynamic explanations.<br />
+        • Features JWT auth, mood analytics telemetry dashboard, and custom SCSS UI.<br /><br />
+        <code>React.js</code> • <code>Node.js</code> • <code>Express.js</code> • <code>MongoDB</code> • <code>MediaPipe</code> • <code>Spotify API</code> • <code>Chart.js</code>
       </td>
       <td>
-        <a href="https://github.com/parvdube-ux/vice-city-synthui"><b>[📁 REPO]</b></a> &nbsp;
-        <a href="https://example.com/demo"><b>[🚀 DEMO]</b></a><br /><br />
-        <img src="https://img.shields.io/badge/STARS-1.2k+-FF007F?style=flat-square" alt="Stars" />
+        <a href="https://github.com/parvdube-ux"><b>[📁 REPO]</b></a><br />
+        <a href="https://github.com/parvdube-ux"><b>[🚀 LIVE DEMO]</b></a><br /><br />
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-39FF14?style=for-the-badge" alt="Status" />
       </td>
     </tr>
+    <!-- OPERATION 3: KITAAB-KENDRA -->
     <tr>
       <td>
-        <b>Operation: Leonida AI Heist Agent</b><br />
-        <sub>Autonomous Multi-Agent Orchestrator</sub>
+        <b>Operation: Kitaab-Kendra</b><br />
+        <sub>Full-Stack Catalog &amp; Circulation Engine</sub><br /><br />
+        <img src="https://img.shields.io/badge/SYSTEM_LOGIC-ENTERPRISE_RBAC-FFB800?style=flat-square" alt="RBAC" />
       </td>
       <td>
-        Autonomous LLM agent system that automates reconnaissance, code analysis, and test case generation in CI/CD.<br /><br />
-        <code>Python</code> • <code>FastAPI</code> • <code>LangChain</code> • <code>ChromaDB</code>
+        High-reliability management architecture with dual-role authentication (Admin &amp; Member) deployed as an independent showcase.<br /><br />
+        • Comprehensive issue/return transactional state machine with overdue tracking.<br />
+        • MongoDB aggregation pipelines automating fine accrual and monthly collection telemetry.<br />
+        • Live ISBN-10/13 format validator, client-side image compression, and real-time administrative metrics dashboard.<br /><br />
+        <code>React.js</code> • <code>Tailwind CSS</code> • <code>Node.js</code> • <code>Express.js</code> • <code>MongoDB</code> • <code>JWT</code>
       </td>
       <td>
-        <a href="https://github.com/parvdube-ux/leonida-ai-agent"><b>[📁 REPO]</b></a> &nbsp;
-        <a href="https://example.com/demo"><b>[🚀 DEMO]</b></a><br /><br />
-        <img src="https://img.shields.io/badge/STATUS-ACTIVE_OPS-FFB800?style=flat-square" alt="Status" />
+        <a href="https://github.com/parvdube-ux"><b>[📁 REPO]</b></a><br />
+        <a href="https://github.com/parvdube-ux"><b>[🚀 LIVE DEMO]</b></a><br /><br />
+        <img src="https://img.shields.io/badge/COVERAGE-18+_ENDPOINTS-9D00FF?style=for-the-badge" alt="Endpoints" />
+      </td>
+    </tr>
+    <!-- OPERATION 4: YATRA-IQ (SIH 2026) -->
+    <tr>
+      <td>
+        <b>Operation: YatraIQ</b><br />
+        <sub>Smart India Hackathon (SIH 2026)</sub><br /><br />
+        <img src="https://img.shields.io/badge/SIH_2026-TEAM_TECHNOVA-FF007F?style=flat-square" alt="SIH 2026" />
+      </td>
+      <td>
+        Selected from VIT Bhopal University's Internal Hackathon 2026 to represent the university at Smart India Hackathon (Problem SIH25013).<br /><br />
+        • AI-powered predictive public transportation tracking platform designed specifically for Tier-2 / small cities.<br /><br />
+        <code>AI Systems</code> • <code>Predictive Tracking</code> • <code>Transit Analytics</code>
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/SELECTION-INTERNAL_WINNER-00F0FF?style=for-the-badge" alt="Winner" />
       </td>
     </tr>
   </tbody>
@@ -180,12 +224,11 @@ Character:
 
 ---
 
-## 📊 POLICE DATABASE // COMMITS & PERFORMANCE STATS
+## 📊 POLICE RECORDS // GITHUB STATS & COMMIT STREAKS
 
 <div align="center">
-  <!-- Replace YOUR_GITHUB_USERNAME with your real GitHub handle -->
-  <img src="https://github-readme-stats.vercel.app/api?username=parvdube-ux&show_icons=true&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&icon_color=FFB800&border_color=FF007F&hide_border=false" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parvdube-ux&theme=radical&background=0D021A&ring=FF007F&fire=FFB800&currStreakLabel=00F0FF&border=00F0FF&dates=FFFFFF" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=parvdube-ux&show_icons=true&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&icon_color=FFB800&border_color=FF007F&hide_border=false" alt="Parv's GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parvdube-ux&theme=radical&background=0D021A&ring=FF007F&fire=FFB800&currStreakLabel=00F0FF&border=00F0FF&dates=FFFFFF" alt="Parv's GitHub Streak" width="49%" />
   
   <br />
   <br />
@@ -197,15 +240,14 @@ Character:
 
 ---
 
-## 📻 VICE CITY RADIO // ON THE AIR
+## 📻 VICE CITY RADIO // MOODIFY AUDIO FREQUENCY
 
 <div align="center">
-  <p><b>NOW TUNED INTO:</b> <code>105.6 FLASH FM // SYNTHWAVE &amp; 80S DISCO NIGHTS</code></p>
-  
-  <!-- Optional Spotify Currently Playing Widget -->
-  <!-- Set up via: https://github.com/novatorem/novatorem or keep static track -->
-  <a href="https://open.spotify.com">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=novatorem" alt="Spotify Playing" />
+  <p><b>BROADCASTING LIVE ON:</b> <code>105.6 FLASH FM // AI MOOD DETECTOR &amp; SYNTHWAVE BEATS</code></p>
+  <p><sub>Powered by the Spotify API integration from Operation Moodify</sub></p>
+
+  <a href="https://github.com/parvdube-ux">
+    <img src="https://img.shields.io/badge/SPOTIFY_API-MOOD_DRIVEN_AUDIO-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify Audio" />
   </a>
 </div>
 
@@ -222,11 +264,11 @@ Character:
 
 | Button Combo | Cheat Activated | In-Game Effect |
 | :--- | :--- | :--- |
-| `↑ ↑ ↓ ↓ ← → ← → B A` | **GOD_MODE_COMMITS** | Instant 100% test coverage & clean builds |
-| `R1, R2, L1, X, ←, ↓, →, ↑` | **SPAWN_ESPRESSO** | Infinite coffee supply directly to desk |
-| `PROFESSIONALSKIT` | **WEAPON_SET_3** | High-end terminal, Neovim, and 4K Ultrawide monitor |
-| `LEAVEMEALONE` | **CLEAR_WANTED_LEVEL** | Resolves all P0 production bugs instantly |
-| `⭐ STAR THIS REPO` | **RESPECT_BOOST** | **+9999 RESPECT to the author!** |
+| `↑ ↑ ↓ ↓ ← → ← → B A` | **GOD_MODE_COMMITS** | 100% test coverage & zero unhandled exceptions |
+| `R1, R2, L1, X, ←, ↓, →, ↑` | **SPAWN_ESPRESSO** | Infinite caffeine piped to Dell G15 rig |
+| `BOUNDED_RECOVERY` | **CASH_DROP** | Dispatches Hinglish recovery agents to reclaim ₹1.73L+ |
+| `LEAVEMEALONE` | **CLEAR_WANTED_LEVEL** | Drops all production P0 alarms & resolves merge conflicts |
+| `⭐ STAR THIS PROFILE` | **RESPECT_BOOST** | **+9999 RESPECT to Parv Dube!** |
 
 </details>
 
@@ -234,7 +276,7 @@ Character:
 
 <!-- FOOTER MISSION PASSED BADGE -->
 <div align="center">
-  <img src="./mission-passed.svg" alt="Mission Passed" width="550px" />
+  <img src="./assets/mission-passed.svg" alt="Mission Passed" width="550px" />
   <br />
-  <sub>GTA VI Themed GitHub Profile • Designed for Developers in Vice City, Leonida 🌴</sub>
+  <sub>GTA VI Themed GitHub Profile • Designed for Parv Dube (@parvdube-ux) • Leonida 🌴</sub>
 </div>
