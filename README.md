@@ -3,7 +3,7 @@
   <!-- GTA 6 THEMED BANNER -->
   <!-- Switch between ./assets/banner.jpg (Cinematic Wallpaper) or ./assets/banner.svg (Neon Vector) -->
   <a href="https://github.com/parvdube-ux">
-    <img src="./banner.svg" alt="GTA VI Developer Portfolio Banner" width="100%" />
+    <img src="./assets/banner.jpg" alt="GTA VI Developer Portfolio Banner" width="100%" />
   </a>
 
   <br />
@@ -68,6 +68,11 @@ Operative:
 ## 🔫 THE WEAPON WHEEL // ARSENAL & TECH STACK
 
 <div align="center">
+  <!-- GTA CIRCULAR WEAPON WHEEL ANIMATION -->
+  <img src="./assets/weapon-wheel.svg" alt="GTA 5 Weapon Wheel Arsenal Selector" width="100%" />
+  
+  <br />
+  <br />
 
 ### 🗡️ SIDEARMS & CORE LANGUAGES
 <p>
@@ -227,13 +232,13 @@ Operative:
 ## 📊 POLICE RECORDS // GITHUB STATS & COMMIT STREAKS
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parvdube-ux&show_icons=true&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&icon_color=FFB800&border_color=FF007F&hide_border=false" alt="Parv's GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parvdube-ux&theme=radical&background=0D021A&ring=FF007F&fire=FFB800&currStreakLabel=00F0FF&border=00F0FF&dates=FFFFFF" alt="Parv's GitHub Streak" width="49%" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=parvdube-ux&show_icons=true&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&icon_color=FFB800&border_color=FF007F&hide_border=false" alt="Parv's GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=parvdube-ux&theme=radical&background=0D021A&ring=FF007F&fire=FFB800&currStreakLabel=00F0FF&border=00F0FF&dates=FFFFFF" alt="Parv's GitHub Streak" width="49%" />
   
   <br />
   <br />
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parvdube-ux&layout=compact&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&border_color=00F0FF&hide_border=false" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=parvdube-ux&layout=compact&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&border_color=00F0FF&hide_border=false" alt="Top Languages" width="60%" />
 </div>
 
 <br />
@@ -276,7 +281,7 @@ Operative:
 
 <!-- FOOTER MISSION PASSED BADGE -->
 <div align="center">
-  <img src="./mission-passed.svg" alt="Mission Passed" width="550px" />
+  <img src="./assets/mission-passed.svg" alt="Mission Passed" width="550px" />
   <br />
   <sub>GTA VI Themed GitHub Profile • Designed for Parv Dube (@parvdube-ux) • Leonida 🌴</sub>
 </div>
