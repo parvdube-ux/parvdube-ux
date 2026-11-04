@@ -69,7 +69,7 @@ Operative:
 
 <div align="center">
   <!-- GTA CIRCULAR WEAPON WHEEL ANIMATION -->
-  <img src="./assets/weapon-wheel.svg" alt="GTA 5 Weapon Wheel Arsenal Selector" width="100%" />
+  <img src="./weapon-wheel.svg" alt="GTA 5 Weapon Wheel Arsenal Selector" width="100%" />
   
   <br />
   <br />
