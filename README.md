@@ -24,17 +24,11 @@
 
   <!-- SOCIAL / FREQUENCY BADGES -->
   <p>
-    <a href="mailto:your.email@example.com">
+    <a href="mailto:parvdube071105@gmail.com">
       <img src="https://img.shields.io/badge/BURNER_EMAIL-FF007F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://linkedin.com/in/YOUR_LINKEDIN">
+    <a href="https://linkedin.com/in/parv-dube-1266b0334">
       <img src="https://img.shields.io/badge/ENCRYPTED_NET-00F0FF?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" />
-    </a>
-    <a href="https://twitter.com/YOUR_TWITTER">
-      <img src="https://img.shields.io/badge/VICE_DISPATCH-9D00FF?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
-    </a>
-    <a href="https://yourportfolio.com">
-      <img src="https://img.shields.io/badge/SAFEHOUSE_WEB-FFB800?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Portfolio" />
     </a>
   </p>
 
@@ -144,7 +138,7 @@ Character:
         <code>Go</code> • <code>Redis</code> • <code>gRPC</code> • <code>Docker</code> • <code>Kafka</code>
       </td>
       <td>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/ocean-view-gateway"><b>[📁 REPO]</b></a> &nbsp;
+        <a href="https://github.com/parvdube-ux/ocean-view-gateway"><b>[📁 REPO]</b></a> &nbsp;
         <a href="https://example.com/demo"><b>[🚀 DEMO]</b></a><br /><br />
         <img src="https://img.shields.io/badge/STATUS-COMPLETED-00F0FF?style=flat-square" alt="Status" />
       </td>
@@ -159,7 +153,7 @@ Character:
         <code>TypeScript</code> • <code>React</code> • <code>TailwindCSS</code> • <code>Radix UI</code>
       </td>
       <td>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/vice-city-synthui"><b>[📁 REPO]</b></a> &nbsp;
+        <a href="https://github.com/parvdube-ux/vice-city-synthui"><b>[📁 REPO]</b></a> &nbsp;
         <a href="https://example.com/demo"><b>[🚀 DEMO]</b></a><br /><br />
         <img src="https://img.shields.io/badge/STARS-1.2k+-FF007F?style=flat-square" alt="Stars" />
       </td>
@@ -174,7 +168,7 @@ Character:
         <code>Python</code> • <code>FastAPI</code> • <code>LangChain</code> • <code>ChromaDB</code>
       </td>
       <td>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/leonida-ai-agent"><b>[📁 REPO]</b></a> &nbsp;
+        <a href="https://github.com/parvdube-ux/leonida-ai-agent"><b>[📁 REPO]</b></a> &nbsp;
         <a href="https://example.com/demo"><b>[🚀 DEMO]</b></a><br /><br />
         <img src="https://img.shields.io/badge/STATUS-ACTIVE_OPS-FFB800?style=flat-square" alt="Status" />
       </td>
@@ -190,13 +184,13 @@ Character:
 
 <div align="center">
   <!-- Replace YOUR_GITHUB_USERNAME with your real GitHub handle -->
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&icon_color=FFB800&border_color=FF007F&hide_border=false" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical&background=0D021A&ring=FF007F&fire=FFB800&currStreakLabel=00F0FF&border=00F0FF&dates=FFFFFF" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=parvdube-ux&show_icons=true&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&icon_color=FFB800&border_color=FF007F&hide_border=false" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=parvdube-ux&theme=radical&background=0D021A&ring=FF007F&fire=FFB800&currStreakLabel=00F0FF&border=00F0FF&dates=FFFFFF" alt="GitHub Streak" width="49%" />
   
   <br />
   <br />
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&border_color=00F0FF&hide_border=false" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parvdube-ux&layout=compact&theme=radical&bg_color=0D021A&title_color=FF007F&text_color=00F0FF&border_color=00F0FF&hide_border=false" alt="Top Languages" width="60%" />
 </div>
 
 <br />
