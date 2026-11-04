@@ -177,7 +177,7 @@
     <path d="M 827 140 Q 795 140 770 155 Q 805 152 827 143 Z" opacity="0.75" />
   </g>
 
-  <!-- Title & HUD Elements -->
+  <!-- Title &amp; HUD Elements -->
   <!-- Top Bar Tag -->
   <g>
     <rect x="360" y="16" width="240" height="20" rx="4" fill="#080210" opacity="0.75" stroke="#00f0ff" stroke-width="1" />

@@ -53,10 +53,8 @@
         fill: #130623;
         stroke: #391157;
         stroke-width: 1.5;
-        transition: all 0.3s ease;
       }
-
-      /* 16s Animation Timeline: 8 items x 2s each */
+      /* CSS Fallback Keyframes */
       @keyframes cycleSlots {
         0%, 12% { transform: rotate(0deg); }
         12.5%, 24.5% { transform: rotate(45deg); }
@@ -68,36 +66,14 @@
         87.5%, 99.5% { transform: rotate(315deg); }
         100% { transform: rotate(360deg); }
       }
-
-      /* Center Display Opacity Animations */
-      @keyframes showCard0 { 0%, 12% { opacity: 1; } 12.5%, 100% { opacity: 0; } }
-      @keyframes showCard1 { 0%, 12% { opacity: 0; } 12.5%, 24.5% { opacity: 1; } 25%, 100% { opacity: 0; } }
-      @keyframes showCard2 { 0%, 24.5% { opacity: 0; } 25%, 37% { opacity: 1; } 37.5%, 100% { opacity: 0; } }
-      @keyframes showCard3 { 0%, 37% { opacity: 0; } 37.5%, 49.5% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      @keyframes showCard4 { 0%, 49.5% { opacity: 0; } 50%, 62% { opacity: 1; } 62.5%, 100% { opacity: 0; } }
-      @keyframes showCard5 { 0%, 62% { opacity: 0; } 62.5%, 74.5% { opacity: 1; } 75%, 100% { opacity: 0; } }
-      @keyframes showCard6 { 0%, 74.5% { opacity: 0; } 75%, 87% { opacity: 1; } 87.5%, 100% { opacity: 0; } }
-      @keyframes showCard7 { 0%, 87% { opacity: 0; } 87.5%, 99.5% { opacity: 1; } 100% { opacity: 0; } }
-
       .selector-pointer {
-        transform-origin: 400px 240px;
         animation: cycleSlots 16s cubic-bezier(0.68, -0.2, 0.265, 1.2) infinite;
       }
-      .card-0 { animation: showCard0 16s infinite; }
-      .card-1 { animation: showCard1 16s infinite; }
-      .card-2 { animation: showCard2 16s infinite; }
-      .card-3 { animation: showCard3 16s infinite; }
-      .card-4 { animation: showCard4 16s infinite; }
-      .card-5 { animation: showCard5 16s infinite; }
-      .card-6 { animation: showCard6 16s infinite; }
-      .card-7 { animation: showCard7 16s infinite; }
-
       @keyframes radarSweep {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
       }
       .radar {
-        transform-origin: 400px 240px;
         animation: radarSweep 6s linear infinite;
       }
     </style>
@@ -138,137 +114,177 @@
     </text>
   </g>
 
-  <!-- Background Decorative Rings -->
-  <circle cx="400" cy="240" r="202" fill="none" stroke="#2b0a42" stroke-width="1.5" stroke-dasharray="6,4" />
-  <circle cx="400" cy="240" r="85" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.3" />
+  <!-- MAIN WEAPON WHEEL (Centered at 400, 240) -->
+  <g transform="translate(400, 240)">
+    <!-- Background Decorative Rings -->
+    <circle cx="0" cy="0" r="202" fill="none" stroke="#2b0a42" stroke-width="1.5" stroke-dasharray="6,4" />
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.3" />
 
-  <!-- Idle Wedges -->
-  <g id="wedges">
-    <path d="M 366.0 151.3 L 331.9 62.6 A 190 190 0 0 1 468.1 62.6 L 434.0 151.3 A 95 95 0 0 0 366.0 151.3 Z" class="wedge-idle" />
-    <path d="M 438.6 153.2 L 477.3 66.4 A 190 190 0 0 1 573.6 162.7 L 486.8 201.4 A 95 95 0 0 0 438.6 153.2 Z" class="wedge-idle" />
-    <path d="M 488.7 206.0 L 577.4 171.9 A 190 190 0 0 1 577.4 308.1 L 488.7 274.0 A 95 95 0 0 0 488.7 206.0 Z" class="wedge-idle" />
-    <path d="M 486.8 278.6 L 573.6 317.3 A 190 190 0 0 1 477.3 413.6 L 438.6 326.8 A 95 95 0 0 0 486.8 278.6 Z" class="wedge-idle" />
-    <path d="M 434.0 328.7 L 468.1 417.4 A 190 190 0 0 1 331.9 417.4 L 366.0 328.7 A 95 95 0 0 0 434.0 328.7 Z" class="wedge-idle" />
-    <path d="M 361.4 326.8 L 322.7 413.6 A 190 190 0 0 1 226.4 317.3 L 313.2 278.6 A 95 95 0 0 0 361.4 326.8 Z" class="wedge-idle" />
-    <path d="M 311.3 274.0 L 222.6 308.1 A 190 190 0 0 1 222.6 171.9 L 311.3 206.0 A 95 95 0 0 0 311.3 274.0 Z" class="wedge-idle" />
-    <path d="M 313.2 201.4 L 226.4 162.7 A 190 190 0 0 1 322.7 66.4 L 361.4 153.2 A 95 95 0 0 0 313.2 201.4 Z" class="wedge-idle" />
-  </g>
+    <!-- Idle Wedges -->
+    <g id="wedges">
+      <path d="M -34.0 -88.7 L -68.1 -177.4 A 190 190 0 0 1 68.1 -177.4 L 34.0 -88.7 A 95 95 0 0 0 -34.0 -88.7 Z" class="wedge-idle" />
+      <path d="M 38.6 -86.8 L 77.3 -173.6 A 190 190 0 0 1 173.6 -77.3 L 86.8 -38.6 A 95 95 0 0 0 38.6 -86.8 Z" class="wedge-idle" />
+      <path d="M 88.7 -34.0 L 177.4 -68.1 A 190 190 0 0 1 177.4 68.1 L 88.7 34.0 A 95 95 0 0 0 88.7 -34.0 Z" class="wedge-idle" />
+      <path d="M 86.8 38.6 L 173.6 77.3 A 190 190 0 0 1 77.3 173.6 L 38.6 86.8 A 95 95 0 0 0 86.8 38.6 Z" class="wedge-idle" />
+      <path d="M 34.0 88.7 L 68.1 177.4 A 190 190 0 0 1 -68.1 177.4 L -34.0 88.7 A 95 95 0 0 0 34.0 88.7 Z" class="wedge-idle" />
+      <path d="M -38.6 86.8 L -77.3 173.6 A 190 190 0 0 1 -173.6 77.3 L -86.8 38.6 A 95 95 0 0 0 -38.6 86.8 Z" class="wedge-idle" />
+      <path d="M -88.7 34.0 L -177.4 68.1 A 190 190 0 0 1 -177.4 -68.1 L -88.7 -34.0 A 95 95 0 0 0 -88.7 34.0 Z" class="wedge-idle" />
+      <path d="M -86.8 -38.6 L -173.6 -77.3 A 190 190 0 0 1 -77.3 -173.6 L -38.6 -86.8 A 95 95 0 0 0 -86.8 -38.6 Z" class="wedge-idle" />
+    </g>
 
-  <!-- Dynamic Active Wedge Selector (Rotates smoothly around the center) -->
-  <g class="selector-pointer">
-    <!-- Active wedge pointing at top (-90deg), rotated by keyframes -->
-    <path d="M 366.0 151.3 L 331.9 62.6 A 190 190 0 0 1 468.1 62.6 L 434.0 151.3 A 95 95 0 0 0 366.0 151.3 Z" fill="url(#activeWedgeGrad)" stroke="#00f0ff" stroke-width="3" filter="url(#intenseGlow)" opacity="0.95" />
-    <!-- Yellow Sight / Reticle Pip -->
-    <circle cx="400" cy="44" r="4.5" fill="#ffd700" filter="url(#neonBlur)" />
-  </g>
+    <!-- Dynamic Active Wedge Selector (Centered at 0, 0) -->
+    <g class="selector-pointer">
+      <animateTransform attributeName="transform" type="rotate"
+        values="0;0;45;45;90;90;135;135;180;180;225;225;270;270;315;315;360"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;0.995;1"
+        dur="16s" repeatCount="indefinite" />
+      <!-- Active wedge pointing at top (-90deg) -->
+      <path d="M -34.0 -88.7 L -68.1 -177.4 A 190 190 0 0 1 68.1 -177.4 L 34.0 -88.7 A 95 95 0 0 0 -34.0 -88.7 Z" fill="url(#activeWedgeGrad)" stroke="#00f0ff" stroke-width="3" filter="url(#intenseGlow)" opacity="0.95" />
+      <!-- Reticle Sight Pip -->
+      <circle cx="0" cy="-196" r="4.5" fill="#ffd700" filter="url(#neonBlur)" />
+    </g>
 
-  <!-- Radar line sweep for extra GTA/military HUD effect -->
-  <g class="radar" opacity="0.25">
-    <line x1="400" y1="240" x2="400" y2="50" stroke="#00f0ff" stroke-width="2" />
-  </g>
+    <!-- Radar line sweep for extra GTA/military HUD effect -->
+    <g class="radar" opacity="0.25">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite" />
+      <line x1="0" y1="0" x2="0" y2="-190" stroke="#00f0ff" stroke-width="2" />
+    </g>
 
-  <!-- Wedge Icons & Labels -->
-  <g text-anchor="middle">
-    <text x="400.0" y="93.5" font-size="16">🤖</text>
-    <text x="400.0" y="110.5" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">AI & AGENTS</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="500.8" y="135.2" font-size="16">🗡️</text>
-    <text x="500.8" y="152.2" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">LANGUAGES</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="542.5" y="236.0" font-size="16">🔫</text>
-    <text x="542.5" y="253.0" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">FRONTEND</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="500.8" y="336.8" font-size="16">💣</text>
-    <text x="500.8" y="353.8" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">BACKEND</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="400.0" y="378.5" font-size="16">🏦</text>
-    <text x="400.0" y="395.5" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">DATABASES</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="299.2" y="336.8" font-size="16">🕶️</text>
-    <text x="299.2" y="353.8" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">DEV TOOLS</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="257.5" y="236.0" font-size="16">☁️</text>
-    <text x="257.5" y="253.0" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">DEVOPS</text>
-  </g>
-  <g text-anchor="middle">
-    <text x="299.2" y="135.2" font-size="16">🧠</text>
-    <text x="299.2" y="152.2" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">CORE CS</text>
-  </g>
+    <!-- Wedge Icons and Labels -->
+    <g text-anchor="middle">
+      <text x="0.0" y="-146.5" font-size="16">🤖</text>
+      <text x="0.0" y="-129.5" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">AI + AGENTS</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="100.8" y="-104.8" font-size="16">🗡️</text>
+      <text x="100.8" y="-87.8" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">LANGUAGES</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="142.5" y="-4.0" font-size="16">🔫</text>
+      <text x="142.5" y="13.0" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">FRONTEND</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="100.8" y="96.8" font-size="16">💣</text>
+      <text x="100.8" y="113.8" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">BACKEND</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="0.0" y="138.5" font-size="16">🏦</text>
+      <text x="0.0" y="155.5" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">DATABASES</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="-100.8" y="96.8" font-size="16">🕶️</text>
+      <text x="-100.8" y="113.8" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">DEV TOOLS</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="-142.5" y="-4.0" font-size="16">☁️</text>
+      <text x="-142.5" y="13.0" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">DEVOPS</text>
+    </g>
+    <g text-anchor="middle">
+      <text x="-100.8" y="-104.8" font-size="16">🧠</text>
+      <text x="-100.8" y="-87.8" fill="#ffffff" font-size="9" font-weight="900" class="hud-title">CORE CS</text>
+    </g>
 
-  <!-- Center Circular Hub -->
-  <circle cx="400" cy="240" r="83" fill="url(#centerGrad)" stroke="#ff007f" stroke-width="2.5" />
-  <circle cx="400" cy="240" r="79" fill="none" stroke="#00f0ff" stroke-width="0.8" opacity="0.5" stroke-dasharray="4,3" />
+    <!-- Center Circular Hub -->
+    <circle cx="0" cy="0" r="83" fill="url(#centerGrad)" stroke="#ff007f" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="79" fill="none" stroke="#00f0ff" stroke-width="0.8" opacity="0.5" stroke-dasharray="4,3" />
 
-  <!-- Center Weapon Cards (Animated by CSS Opacity) -->
-  <g class="card-0" text-anchor="middle">
-    <text x="400" y="202" font-size="24">🤖</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">AI & AGENTIC</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Google Gemini & LLMs</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 99% // BOUNDED / AUDITED</text>
-  </g>
-  <g class="card-1" text-anchor="middle">
-    <text x="400" y="202" font-size="24">🗡️</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">CORE LANGUAGES</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Python • JS • C++ • Java</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 98% // MULTI-PARADIGM</text>
-  </g>
-  <g class="card-2" text-anchor="middle">
-    <text x="400" y="202" font-size="24">🔫</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">FRONTEND ARSENAL</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">React • Next.js • Tailwind</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 95% // RESPONSIVE / SCSS</text>
-  </g>
-  <g class="card-3" text-anchor="middle">
-    <text x="400" y="202" font-size="24">💣</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">BACKEND HEAVY</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Node.js • Express • REST</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 99% // ENTERPRISE RBAC</text>
-  </g>
-  <g class="card-4" text-anchor="middle">
-    <text x="400" y="202" font-size="24">🏦</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">SAFE CRACKERS</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">MongoDB • Aggregations</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 96% // PIPELINE LOGIC</text>
-  </g>
-  <g class="card-5" text-anchor="middle">
-    <text x="400" y="202" font-size="24">🕶️</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">DEV GEAR</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Git • Postman • Claude</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 95% // RAPID DISPATCH</text>
-  </g>
-  <g class="card-6" text-anchor="middle">
-    <text x="400" y="202" font-size="24">☁️</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">DEVOPS & CLOUD</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">CI/CD • Kubernetes • Docker</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 90% // CONTAINER OPS</text>
-  </g>
-  <g class="card-7" text-anchor="middle">
-    <text x="400" y="202" font-size="24">🧠</text>
-    <text x="400" y="225" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">CORE FOUNDATIONS</text>
-    <text x="400" y="242" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">DSA • OOP • System Logic</text>
-    <rect x="345" y="256" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
-    <rect x="346" y="257" width="95" height="5" rx="2.5" fill="#00f0ff" />
-    <text x="400" y="278" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 97% // HIGH EFFICIENCY</text>
+    <!-- Center Weapon Cards (Animated by SVG animate) -->
+    <!-- Card 0: AI + AGENTIC -->
+    <g class="card-0" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">🤖</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">AI + AGENTIC</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Google Gemini + LLMs</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 99% // BOUNDED / AUDITED</text>
+    </g>
+    <!-- Card 1: CORE LANGUAGES -->
+    <g class="card-1" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">🗡️</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">CORE LANGUAGES</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Python • JS • C++ • Java</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 98% // MULTI-PARADIGM</text>
+    </g>
+    <!-- Card 2: FRONTEND ARSENAL -->
+    <g class="card-2" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">🔫</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">FRONTEND ARSENAL</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">React • Next.js • Tailwind</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 95% // RESPONSIVE / SCSS</text>
+    </g>
+    <!-- Card 3: BACKEND HEAVY -->
+    <g class="card-3" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">💣</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">BACKEND HEAVY</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Node.js • Express • REST</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 99% // ENTERPRISE RBAC</text>
+    </g>
+    <!-- Card 4: SAFE CRACKERS -->
+    <g class="card-4" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">🏦</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">SAFE CRACKERS</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">MongoDB • Aggregations</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 96% // PIPELINE LOGIC</text>
+    </g>
+    <!-- Card 5: DEV GEAR -->
+    <g class="card-5" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">🕶️</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">DEV GEAR</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">Git • Postman • Claude</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 95% // RAPID DISPATCH</text>
+    </g>
+    <!-- Card 6: DEVOPS + CLOUD -->
+    <g class="card-6" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">☁️</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">DEVOPS + CLOUD</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">CI/CD • Kubernetes • Docker</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 90% // CONTAINER OPS</text>
+    </g>
+    <!-- Card 7: CORE FOUNDATIONS -->
+    <g class="card-7" text-anchor="middle">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite"
+        values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1"
+        keyTimes="0;0.12;0.125;0.245;0.25;0.37;0.375;0.495;0.50;0.62;0.625;0.745;0.75;0.87;0.875;1" />
+      <text x="0" y="-38" font-size="24">🧠</text>
+      <text x="0" y="-15" fill="#00f0ff" font-size="11" font-weight="900" class="hud-title" filter="url(#neonBlur)">CORE FOUNDATIONS</text>
+      <text x="0" y="2" fill="#ffffff" font-size="8.5" font-weight="bold" class="hud-mono">DSA • OOP • System Logic</text>
+      <rect x="-55" y="16" width="110" height="7" rx="3.5" fill="#130623" stroke="#ff007f" stroke-width="0.8" />
+      <rect x="-54" y="17" width="95" height="5" rx="2.5" fill="#00f0ff" />
+      <text x="0" y="38" fill="#ffd700" font-size="7.5" font-weight="900" class="hud-title">EFFICIENCY: 97% // HIGH EFFICIENCY</text>
+    </g>
   </g>
 
   <!-- Bottom HUD Status Prompt -->
